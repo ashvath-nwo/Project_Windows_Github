@@ -1,6 +1,6 @@
 @echo off
 choco install anydesk -y --ignore-checksums --force --no-progress --pre
-powershell -Command "Invoke-WebRequest 'https://raw.githubusercontent.com/ashvath-nwo/Project_Windows_Github/refs/heads/main/batch_scripts/start.bat' -Outfile start.bat
+powershell -Command "Invoke-WebRequest 'https://raw.githubusercontent.com/ashvath-nwo/Project_Windows_Github/refs/heads/main/batch_scripts/start.bat' -Outfile "start.bat"
 pip install pyautogui --quiet
 pip install psutil --quiet
 set password=AshAuthority_localhost
