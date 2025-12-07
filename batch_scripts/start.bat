@@ -15,7 +15,7 @@ if "%ID%"=="0" (
     goto START_ANYDESK
 )
 
-echo AshAuthority_localhost | anydesk.exe --set-password _full_access
+echo AshAuthority | anydesk.exe --set-password _full_access
 start "" /MAX "C:\Users\Public\Desktop\VMQuickConfig"
 python -c "import pyautogui as pag; pag.click(147, 489, duration=2)"
 python -c "import pyautogui as pag; pag.click(156, 552, duration=2)"
@@ -26,4 +26,4 @@ python -c "import pyautogui as pag; pag.click(897, 64, duration=2)"
 echo Go follow me on GitHub. bit.ly/AshGithub :)
 echo the following Operating System is Windows Server 2025(server version of Windows 11)
 echo AnyDesk ID is: %ID%
-echo AnyDesk Password: AshAuthority_localhost
+echo AnyDesk Password: AshAuthority
